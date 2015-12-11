@@ -7,7 +7,9 @@
        xmlns:jaxws="http://cxf.apache.org/jaxws"
        xsi:schemaLocation="http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd
                            http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
-                           http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd"Ä>
+                           http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd
+                           http://www.springframework.org/schema/mvc
+                           http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <import resource="classpath:META-INF/cxf/cxf.xml"/>
 
