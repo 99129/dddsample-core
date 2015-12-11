@@ -10,7 +10,7 @@
 
 <body>
 <div id="outer">
-    <div th:replace="thymeleaf/adminDecorator :: adminbody"/>
+    <div th:replace="templates/adminDecorator :: adminbody"/>
     <div id="body">
         <table border="1" width="600">
             <caption>All cargos</caption>
@@ -25,7 +25,7 @@
             <tbody>
             <tr th:each="cargo : ${cargoList}">
                 <td>
-                    <a href="/admin/show.jsp" th:href="@{/admin/show(trackingId=${cargo.trackingId})}"
+                    <a th:href="@{/admin/show(trackingId=${cargo.trackingId})}"
                        th:text="${cargo.trackingId}">Tracking id</a>
                 </td>
                 <td th:text="${cargo.origin}">Origin</td>

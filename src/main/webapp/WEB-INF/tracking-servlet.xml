@@ -7,7 +7,7 @@
 
   <bean id="templateResolver" class="org.thymeleaf.templateresolver.ServletContextTemplateResolver">
     <property name="templateMode" value="HTML5" />
-    <property name="prefix" value="/WEB-INF/thymeleaf/pub/"/>
+    <property name="prefix" value="/WEB-INF/templates/pub/"/>
     <property name="suffix" value=".html"/>
   </bean>
 

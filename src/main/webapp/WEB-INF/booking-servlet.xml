@@ -15,7 +15,7 @@
     </bean>
 
     <bean class="org.thymeleaf.spring4.view.ThymeleafViewResolver">
-        <property name="viewNames" value="thymeleaf/admin/*"/>
+        <property name="viewNames" value="templates/admin/*"/>
         <property name="templateEngine" ref="templateEngine"/>
     </bean>
 
